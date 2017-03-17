@@ -3,7 +3,7 @@ layout: default
 title: English Um-a-Um - Contact
 ---
 <h2>To contact Professor Fonseca and sign up for a class, please complete and send the form below. </h2>
-	<form action="" id="myform" >
+	<form action="contact_form_handler.php" id="contactform" method="POST">
 	<fieldset>
 	<legend>Your Personal information:</legend>
 		
@@ -12,7 +12,7 @@ title: English Um-a-Um - Contact
 		<label for='LastName'>Last Name:</label>
 		<input type="text" id="LastName" name="LastName" /><br><br>
 		<label for='EMail'>Email:</label>
-		<input type="text" id="EMail" name="EMail" /><br><br>
+		<input type="text" id="Email" name="Email" /><br><br>
 		<label for='Phone'>Phone Number:</label>
 		<input type="text" id="Phone" name="Phone" /><br><br>
 		<input type="radio" name="gender" value="male"checked>Male<br>
@@ -25,8 +25,8 @@ title: English Um-a-Um - Contact
 	</fieldset>
 	</form>
 
-<script  type="text/javascript">
-	var frmvalidator = new Validator("myform");
+<script  type="text/javascript" language="JavaScript">
+	var frmvalidator = new Validator("contactform");
 	frmvalidator.addValidation("FirstName","req","Please enter your First Name");
 	frmvalidator.addValidation("FirstName","maxlen=20",
 	"Max length for FirstName is 20");
@@ -39,4 +39,4 @@ title: English Um-a-Um - Contact
 	frmvalidator.addValidation("Phone","numeric");
 </script>
 
-<script src="gen_validatorv4.js" type="text/javascript"></script>
+<script src="gen_validatorv4.js" type="text/javascript" language="JavaScript"></script>
