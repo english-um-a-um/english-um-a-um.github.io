@@ -3,7 +3,7 @@ layout: default
 title: English Um-a-Um - Contact
 ---
 <h2>To contact Professor Fonseca and sign up for a class, please complete and send the form below. </h2>
-	<form action="mailto:nichrishayes2@yahoo.com" id="contactform" name="contactform" method="POST">
+	<form action="send_form_email.php" id="contactform" name="contactform" method="POST">
 	<fieldset>
 	<legend>Your Personal information:</legend>
 		
@@ -24,19 +24,3 @@ title: English Um-a-Um - Contact
 		<input type="reset" value="Reset">
 	</fieldset>
 	</form>
-
-<script  type="text/javascript" language="JavaScript">
-	var frmvalidator = new Validator("contactform");
-	frmvalidator.addValidation("FirstName","req","Please enter your First Name");
-	frmvalidator.addValidation("FirstName","maxlen=20",
-	"Max length for FirstName is 20");
-	frmvalidator.addValidation("LastName","req");
-	frmvalidator.addValidation("LastName","maxlen=20");
-	frmvalidator.addValidation("Email","maxlen=50");
-	frmvalidator.addValidation("Email","req");
-	frmvalidator.addValidation("Email","email");
-	frmvalidator.addValidation("Phone","maxlen=50");
-	frmvalidator.addValidation("Phone","numeric");
-</script>
-
-<script src="gen_validatorv4.js" type="text/javascript" language="JavaScript"></script>
