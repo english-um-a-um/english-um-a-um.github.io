@@ -2,7 +2,18 @@
 layout: default
 title: English Um-a-Um - Contact
 ---
-<div class="blurb">
-	<p>
-	</p>
-</div><!-- /.blurb -->
+<h2>To contact Professor Fonseca and sign up for a class, please complete and send the form below. </h2>
+<form action="mailto:nichrishayes2@yahoo.com" method="post" enctype="text/plain">
+	<fieldset>
+   	<legend>Personal information:</legend>
+		Your Name:<br><input type="text" name="name"><br>
+		Your Email:<br><input type="text" name="mail"><br>
+    		Your Phone Number:<br><input type="text"name="phone"><br>
+    		<input type="radio" name="gender" value="male"checked>Male<br>
+  		<input type="radio" name="gender" value="female">Female<br>
+  		<input type="radio" name="gender" value="other">Other<br><br>
+		Message:<br><input type="text" name="comment" size="50"><br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+	</fieldset>
+</form>
