@@ -1,51 +1,26 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>English UM-a-Um</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body background="/background.png" alt="image" width="50%" margin="auto">
-			<nav>
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/classes">Classes</a></li>
-					<li><a href="/translation">Translation</a></li>
-					<li><a href="/bio">Professional Bio</a></li>
-					<li><a href="/contact">Contact</a></li>
-				</ul>
-			</nav>
-			<h2>To contact Professor Fonseca and sign up for a class, please complete and send the form below. </h2>
+---
+layout: default
+title: English Um-a-Um - Bio
+---
+<h2>To contact Professor Fonseca and sign up for a class, please complete and send the form below. </h2>
 			<form action="https://script.google.com/macros/s/AKfycbylCT6o0fdozLf7yNJV2kuEuVBHa5NZmPNfh0BLYCNuug_Z6VZz/exec" id="contactform" name="contactform" method="POST">
 			<fieldset>
-			<legend>Your Personal information:</legend>
-		
-				<label for='FirstName'>First Name:</label>
-				<input type="text" id="FirstName" name="FirstName" /><br><br>
-				<label for='LastName'>Last Name:</label>
-				<input type="text" id="LastName" name="LastName" /><br><br>
-				<label for='Email'>Email:</label>
-				<input type="text" id="Email" name="Email" /><br><br>
-				<label for='Phone'>Phone Number:</label>
-				<input type="text" id="Phone" name="Phone" /><br><br>
-				<input type="radio" name="Gender" value="male"checked>Male<br>
-				<input type="radio" name="Gender" value="female">Female<br>
-				<input type="radio" name="Gender" value="other">Other<br><br>
-				<label for='Message'>Message:</label><br>
-				<textarea cols="40" rows="5" id="Message" name="Message"></textarea><br><br>
-				<input type="submit" name="submit" value="Send">
-				<input type="reset" value="Reset">
-			</fieldset>
+				<legend>Your Personal information:</legend>
+
+					<label for='FirstName'>First Name:</label>
+					<input type="text" id="FirstName" name="FirstName" /><br><br>
+					<label for='LastName'>Last Name:</label>
+					<input type="text" id="LastName" name="LastName" /><br><br>
+					<label for='Email'>Email:</label>
+					<input type="text" id="Email" name="Email" /><br><br>
+					<label for='Phone'>Phone Number:</label>
+					<input type="text" id="Phone" name="Phone" /><br><br>
+					<input type="radio" name="Gender" value="male"checked>Male<br>
+					<input type="radio" name="Gender" value="female">Female<br>
+					<input type="radio" name="Gender" value="other">Other<br><br>
+					<label for='Message'>Message:</label><br>
+					<textarea cols="40" rows="5" id="Message" name="Message"></textarea><br><br>
+					<input type="submit" name="submit" value="Send">
+					<input type="reset" value="Reset">
+				</fieldset>
 			</form>
-			<div style="display:none;" id="thankyou_message">
-			    <h2><em>Obrigada!</em> for contacting English Um-a-Um!
-			      We will get back to you soon!</h2>
-			</div>
-			<footer>
-	    			<ul>
-	        		Copyright © 2017 Krysney Alves Fonseca. Design by <a href="https://nichrishayes.github.io">Nicholas Christopher-Hayes.</a>
-				</ul>
-			</footer>
-			<script class="false" type="text/javascript" src="form-submission-handler.js"></script>
-		</body>
-</html>
