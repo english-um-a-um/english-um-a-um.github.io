@@ -37,7 +37,7 @@ h1 {
     text-align: center;
 }
 h2{
-    font-size: 6em;
+    font-size: .6em;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 .dropbtn a:hover {background-color: #0000A0}
