@@ -77,8 +77,8 @@ footer ul{
 }
 footer ul a{
     line-height: 1.4em;
-    color: #848482;
-    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
 }
 footer ul p {
     color: #000000;
