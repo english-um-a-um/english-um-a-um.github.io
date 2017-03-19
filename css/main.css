@@ -44,6 +44,11 @@ h2{
     color: white;
 }
 h3{
+    font-size: 1.3em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    color: white;
+}
+h4{
     font-size: 1.0em;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     color: white;
