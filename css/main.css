@@ -10,9 +10,10 @@ nav ul {
     background-color: #0000A0;
     font-weight: #FF00FF;
 }
-nav ul li{
+li{
     margin-right: 20px;
     float: left;
+    display: inline-block;
 }
 a {
     text-decoration: none;
