@@ -31,19 +31,21 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h2{
+    font-size: 6em;
+}
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
 }
-p.x1{
-    font-size: .6em;
 }
 footer {
     border-top: 4px solid #d5d5d5;
     font-size: .8em;
     text-align: center;
+    background-color: #0000A0;
 }
 footer ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -53,7 +55,7 @@ footer ul{
 }
 footer ul a{
     line-height: 1.4em;
-    color: #D1D0CE;
+    color: #848482;
     text-decoration: none;
 }
 footer ul p {
