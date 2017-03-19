@@ -43,7 +43,8 @@ h2{
 h3{
     font-size: 1.5em;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    color: #848482
+    color: white;
+    background-color: #0000A0;
 }
 
 .dropbtn a:hover {background-color: #0000A0}
