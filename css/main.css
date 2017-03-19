@@ -28,7 +28,7 @@ li a, .dropbtn {
     display: block;
     color: ;
     text-align: center;
-    padding: 10px 22px;
+    padding: 12px 22px;
     text-decoration: none;
 }
 h1 {
@@ -37,9 +37,15 @@ h1 {
     text-align: center;
 }
 h2{
-    font-size: .6em;
+    font-size: .5em;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+h3{
+    font-size: 1.5em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    color: #848482
+}
+
 .dropbtn a:hover {background-color: #0000A0}
 .show {display: inline;}
 p {
@@ -67,6 +73,6 @@ footer ul a{
     text-decoration: none;
 }
 footer ul p {
-    color: #333;
+    color: #000000;
 }
 
