@@ -11,8 +11,8 @@ nav ul {
     font-weight: #FF00FF;
 }
 nav ul li{
-    display: block;
     margin-right: 20px;
+    float: left;
 }
 a {
     text-decoration: none;
