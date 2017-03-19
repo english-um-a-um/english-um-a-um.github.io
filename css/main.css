@@ -11,7 +11,7 @@ nav ul {
     font-weight: #FF00FF;
 }
 nav ul li{
-    display: inline;
+    display: block;
     margin-right: 20px;
 }
 a {
